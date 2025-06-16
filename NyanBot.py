@@ -5,7 +5,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.errors import MessageNotModified
-import asyncio
 from random import randint
 
 ai = __import__('saves').api_id
